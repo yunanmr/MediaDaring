@@ -8,4 +8,6 @@ $config['home_description'] = 'Cegah penyebaran virus Corona lebih luas lagi, ay
 $config['license'] = ''; // kode lisensi dari u9media
 $config['install_code'] = ''; // kode instalasi
 
+// file didalam folder application/views/include tidak diencrypt
+
 ?>

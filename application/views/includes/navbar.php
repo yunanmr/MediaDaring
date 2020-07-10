@@ -11,6 +11,7 @@ defined( 'BASEPATH') OR exit( 'No direct script access allowed');
 	</a>
 	<div class="collapse navbar-collapse" id="navbarsExampleDefault">
 		<ul class="navbar-nav ml-auto">
+			<!-- cek list id topic disini https://multireload.com/app/berita/topic -->
         <?php $no = 1; for($a=0; $a < 9; $a++){ if ($kategori->items[0]->content->items[$a]->type == 'topic'){ ?>
 			<li class="nav-item active">
 			<a class="nav-link" href="<?php echo site_url('news/category/'.$kategori->items[0]->content->items[$a]->content->id.'/'.$fungsi->sluggify($kategori->items[0]->content->items[$a]->content->name));?>"><?= $kategori->items[0]->content->items[$a]->content->name; ?></a>

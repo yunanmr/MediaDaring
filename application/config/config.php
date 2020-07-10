@@ -30,7 +30,7 @@ $protocol = 'https';
 } else {
 $protocol = 'http';
 }
-$config['base_url'] = $protocol . '://'.strtolower($_SERVER['SERVER_NAME']).'/mediadaring';
+$config['base_url'] = $protocol . '://'.strtolower($_SERVER['SERVER_NAME']).'';
 
 /*
 |--------------------------------------------------------------------------
